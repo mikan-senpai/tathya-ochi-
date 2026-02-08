@@ -8,9 +8,7 @@ const routes = {
 	"/": "Tathya Technologies Pvt Ltd",
 	"/services": "Services",
 	"/presentation": "Our Work",
-	"/team": {
-		path: "/team",
-	},
+	"/team": "About Us",
 	"/insights": "Insights",
 	"/contact": "Contact Us",
 	"/case": "Workiz Easy",
