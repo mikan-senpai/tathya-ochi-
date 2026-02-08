@@ -84,3 +84,4 @@ export { default as lexus } from './lexus.svg';
 export { default as aflorihtmic } from './aflomatric.svg';
 export { default as orderlion } from './orderlion.svg';
 export { default as blackBox } from './blackBox.svg';
+export { default as tathyaTech2 } from './tathya-tech-card.png';

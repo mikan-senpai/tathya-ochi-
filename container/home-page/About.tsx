@@ -76,7 +76,7 @@ export default function About() {
 						onMouseEnter={() => setHovered(true)}
 						onMouseLeave={() => setHovered(false)}>
 						<RoundButton
-							href="/ochi-team"
+							href="/team"
 							title="read more"
 							bgcolor="#000"
 							className="bg-white text-black"
@@ -85,15 +85,13 @@ export default function About() {
 					</div>
 				</div>
 				<div
-					className={`w-[50%] sm:w-full xm:w-full transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${
-						hovered && "scale-[0.96]"
-					}`}>
+					className={`w-[50%] sm:w-full xm:w-full transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${hovered && "scale-[0.96]"
+						}`}>
 					<Image
 						src={aboutImg}
 						alt="about-img"
-						className={`w-full h-full transition transform duration-[2s] ease-[.215,.61,.355,1] ${
-							hovered && "scale-[1.09]"
-						}`}
+						className={`w-full h-full transition transform duration-[2s] ease-[.215,.61,.355,1] ${hovered && "scale-[1.09]"
+							}`}
 					/>
 				</div>
 			</div>
