@@ -25,8 +25,8 @@ export default function Hero() {
 											delay: 1.5,
 										}}>
 										<Image
-											width={120}
-											height={50}
+											width={270}
+											height={200}
 											src={tathyaTech2}
 											alt="img"
 											className="w-auto h-[150px] lg:w-auto lg:h-[150px] md:w-[120px] md:h-[80px] sm:w-[90px] sm:h-[60px] xm:w-[80px] xm:h-[50px] xl:mt-[15px] mt-[10px] rounded-[10px]"
