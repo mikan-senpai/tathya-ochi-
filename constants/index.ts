@@ -471,6 +471,37 @@ export const serviceProcessItems = [
    },
 ];
 
+export const servicesSlides = [
+   {
+      id: 1,
+      title: "Infrastructure Solutions",
+      description: "Robust IT infrastructure management including server setup, data center solutions, and cloud architecture.",
+      src: capaybilities1,
+      link: "/services"
+   },
+   {
+      id: 2,
+      title: "Communication Systems",
+      description: "Advanced communication setups including PBX migration, VoIP integration, and IP telephony.",
+      src: capaybilities2,
+      link: "/services"
+   },
+   {
+      id: 3,
+      title: "Web & AI Solutions",
+      description: "Cutting-edge web development and AI integration to automate business processes and enhance user experience.",
+      src: capaybilities3,
+      link: "/services"
+   },
+   {
+      id: 4,
+      title: "Cloud Services",
+      description: "Secure and scalable cloud migration, multi-cloud deployment, and ongoing cloud management.",
+      src: capaybilities4,
+      link: "/services"
+   }
+];
+
 export const serviceClientsItem = [
    {
       id: 1,

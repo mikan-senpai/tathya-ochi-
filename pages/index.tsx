@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { Curve, Marquee, Ready } from "@/components";
-import { About, Clients, Hero, Projects, VideoHome } from "@/container";
+import { About, Clients, Hero, Projects, Services, VideoHome } from "@/container";
 
 export default function Home() {
 	useEffect(() => {
@@ -25,6 +25,7 @@ export default function Home() {
 				<About />
 				{/* <VideoHome /> */}
 				<Projects />
+				<Services />
 				<Clients />
 				<Ready />
 			</Curve>
